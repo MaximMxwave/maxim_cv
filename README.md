@@ -16,13 +16,12 @@
 ## ⚙️ Технологии
 - 🟠 HTML  
 - 🔵 CSS
-- 🟡 JavaScript  
 
 ---
 
 ## 📸 Скриншоты
 
-![preview img](/prew.png)
+![preview img](/prev.png)
 
 ---
 
