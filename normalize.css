@@ -1,46 +1,27 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* HTML   ========================================================================== */
-
-/**
- * 1. Исправьте высоту строки во всех браузерах.
- * Размер шрифта 100% */
-
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/* Тело   ========================================================================== */
 
-/**
- * Убрать отступы */
+
+
 
 body {
   margin: 0;
 }
 
-/**
- * Показывать main */
 
 main {
   display: block;
 }
 
-/**
- * Размер h1 в секциях * `article` в Chrome, Firefox, and Safari.
- */
 
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* Теги hr   ========================================================================== */
-
-/**
- * Оформление box * 2. Покажите переполнение в Edge и IE.
- */
 
 hr {
   box-sizing: content-box; /* 1 */
@@ -48,27 +29,17 @@ hr {
   overflow: visible; /* 2 */
 }
 
-/**
- * Размер шрифта * 2. Исправьте нечетный размер шрифта "em" во всех браузерах.
- */
 
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
-/* Текст   ========================================================================== */
-
-/**
- * Шрифт serif */
 
 a {
   background-color: transparent;
 }
 
-/**
- * Прозрачный фон * 2. Добавьте правильное оформление текста в Chrome, Edge, IE, Opera и Safari.
- */
 
 abbr[title] {
   border-bottom: none; /* 1 */
@@ -76,17 +47,12 @@ abbr[title] {
   text-decoration: underline dotted; /* 2 */
 }
 
-/**
- * Тег b и strong */
 
 b,
 strong {
   font-weight: bolder;
 }
 
-/**
- * Размер кода * 2. Исправьте нечетный размер шрифта "em" во всех браузерах.
- */
 
 code,
 kbd,
@@ -95,16 +61,12 @@ samp {
   font-size: 1em; /* 2 */
 }
 
-/**
- * Размер шрифта small */
+
 
 small {
   font-size: 80%;
 }
 
-/**
- * Теги sub и sup * всех браузерах.
- */
 
 sub,
 sup {
@@ -122,20 +84,12 @@ sup {
   top: -0.5em;
 }
 
-/* Внутренние   ========================================================================== */
-
-/**
- * Обработка img */
 
 img {
   border-style: none;
 }
 
-/* Формы   ========================================================================== */
 
-/**
- * Нормализация button * 2. Удалите поля в Firefox и Safari.
- */
 
 button,
 input,
@@ -148,26 +102,19 @@ textarea {
   margin: 0; /* 2 */
 }
 
-/**
- * Поведение button * 1. Показать переполнение в Edge.
- */
 
 button,
 input { /* 1 */
   overflow: visible;
 }
 
-/**
- * Особенности input * 1. Удалите наследование 'text transform' в Firefox.
- */
+
 
 button,
 select { /* 1 */
   text-transform: none;
 }
 
-/**
- * Типы button */
 
 button,
 [type="button"],
@@ -176,9 +123,7 @@ button,
   -webkit-appearance: button;
 }
 
-/**
- * Удалите внутреннюю границу и отступы в Firefox.
- */
+
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -188,9 +133,7 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-/**
- * Восстановите стиль фокусировки, установленный предыдущим правилом.
- */
+
 
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
@@ -199,20 +142,12 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-/**
- * Исправьте отступы в Firefox.
- */
+
 
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
-/**
- * 1. Исправьте перенос текста в Edge и IE.
- * 2. Исправьте наследование цвета от элементов `fieldset` в IE.
- * 3. Удалите отступы, чтобы разработчики не были застигнуты врасплох, когда они обнулятся
- *    * элементы `fieldset` во всех браузерах.
- */
 
 legend {
   box-sizing: border-box; /* 1 */
@@ -223,26 +158,19 @@ legend {
   white-space: normal; /* 1 */
 }
 
-/**
- * Добавьте правильное выравнивание по вертикали в Chrome, Firefox и Opera.
- */
+
 
 progress {
   vertical-align: baseline;
 }
 
-/**
- * Удалите вертикальную полосу прокрутки по умолчанию в IE 10+.
- */
+
 
 textarea {
   overflow: auto;
 }
 
-/**
- * 1. Добавьте правильный размер поля в IE 10.
- * 2. Удалите отступы в IE 10.
- */
+
 
 [type="checkbox"],
 [type="radio"] {
@@ -250,76 +178,51 @@ textarea {
   padding: 0; /* 2 */
 }
 
-/**
- * Исправьте стиль курсора кнопок увеличения и уменьшения в Chrome.
- */
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/**
- * 1. Исправьте странный внешний вид в Chrome и Safari.
- * 2. Исправьте стиль контура в Safari.
- */
+
 
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
-/**
- * Удалите внутреннюю прокладку в Chrome и Safari на mac OS.
- */
+
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/**
- * 1. Исправьте невозможность стилизовать кликабельные типы в iOS и Safari.
- * 2. Измените свойства шрифта на `наследование` в Safari.
- */
+
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
-/* Интерактивность
-   ========================================================================== */
 
-/*
- * Добавьте правильное отображение в Edge, IE 10+ и Firefox.
- */
 
 details {
   display: block;
 }
 
-/*
- * Добавьте правильное отображение во всех браузерах.
- */
+
 
 summary {
   display: list-item;
 }
 
-/* Разное
-   ========================================================================== */
 
-/**
- * Добавьте правильное отображение в IE 10+.
- */
 
 template {
   display: none;
 }
 
-/**
- * Добавьте правильное отображение в IE 10.
- */
+
 
 [hidden] {
   display: none;
